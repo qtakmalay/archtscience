@@ -1,6 +1,17 @@
 <!DOCTYPE html>
 <html style="font-size: 16px;">
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-G54CY070X8"></script>
+<script> import { LottieInteractive } from 'lottie-interactive';</script> 
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'G-G54CY070X8');
+</script>
+<script type="text/javascript" src="https://unpkg.com/lottie-interactive@latest/dist/lottie-interactive.js"></script>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta charset="utf-8">
     <meta name="keywords" content="">
@@ -21,8 +32,17 @@
     <meta name="theme-color" content="#478ac9">
     <meta property="og:title" content="About">
     <meta property="og:type" content="website">
+    <link rel="stylesheet" href="3b-collapse.css"/>
+    <script src="3c-collapse.js"></script>
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-white" id="sec-cead"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
+    <div style="text-align: center" id="collapse" class="show">
+      <lottie-interactive path="architext.json"
+                          loop
+                          autoplay>
+      </lottie-interactive>
+      <input type="button" value="Toggle" onclick="toggle()"/>
+    </div>
         <img class="u-image u-image-default u-image-1" src="images/12.png" alt="" data-image-width="1761" data-image-height="241">
       </div></header> 
     
