@@ -37,11 +37,18 @@
   </head>
   <body class="u-body u-xl-mode"><header class="u-clearfix u-header u-white" id="sec-cead"><div class="u-clearfix u-sheet u-valign-middle u-sheet-1">
     <div style="text-align: center" id="collapse" class="show">
-      <lottie-interactive path="architext.json"
+      <lottie-interactive path="architext3.json"
                           loop
                           autoplay>
       </lottie-interactive>
-      <input type="button" value="Toggle" onclick="toggle()"/>
+      <script>
+	      console.log('Fired!');
+	      window.addEventListener('load', (event) => {
+  console.log('page is fully loaded');
+		      toggle();
+});
+      </script>
+      
     </div>
         <img class="u-image u-image-default u-image-1" src="images/12.png" alt="" data-image-width="1761" data-image-height="241">
       </div></header> 
